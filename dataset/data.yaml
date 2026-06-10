@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['construction helmet']
+
+roboflow:
+  workspace: construction-helmet-sthqm
+  project: construction-helmet-detection-dxplv
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/construction-helmet-sthqm/construction-helmet-detection-dxplv/dataset/2
